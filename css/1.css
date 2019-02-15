@@ -1,0 +1,92 @@
+/*--------1--------*/
+* {
+	padding: 0px;
+	margin: 0px;
+	box-sizing: border-box;
+}
+body {
+	max-width: 1366px;
+	display: flex;
+	flex-flow: column wrap;
+    font-family: Poppins;
+    font-size: 14px;
+    color: #FFFFFF;
+    margin:auto;
+}
+/*------------------------------------------------------------------------------------------------*/
+
+.cv-line-bottom,
+.cv-line-top {
+    position: relative;
+    letter-spacing: 0.05em;
+}
+
+.cv-line-bottom:after {
+    position: absolute;
+    bottom: -5px;
+    left: 0;
+    content: '';
+    height: 5px;
+    width: 100%;
+    border-bottom: 2px solid #FB634E;
+}
+
+.cv-line-top:after {
+    position: absolute;
+    top: -6px;
+    right: 0;
+    content: '';
+    height: 5px;
+    width: 55%;
+    border-bottom: 2px solid #FB634E;
+}
+
+/*-----summary------------------------------------------------------------------------------------*/
+.summary {
+	width: 100%; 
+    text-align: justify;
+    background-color: #2026B2;
+    padding: 50px 110px 30px;
+}
+
+.summary > div {
+	margin-bottom: 20px;
+}
+
+.summary div.edit{
+	display: flex;
+	justify-content: flex-end;
+}
+
+.summary div.edit div.btn-edit {
+	width: 115px;
+	padding: 5px;
+	display: flex;
+	border:2px solid orange;
+	margin-right: 40px;
+}
+/*-----skill------------------------------------------------------------------------------------*/
+.skill {
+	width: 100%;
+	display: flex;
+	justify-content: space-between;
+    background: #4A0F73;
+    padding: 50px 0px;
+}
+.skill-pro,
+.skill-per {
+	margin: 0px 100px;
+}
+.skill-pro>div,
+.skill-per>div {
+	margin-bottom: 20px;
+
+}
+   
+/*-----footer------------------------------------------------------------------------------------*/
+footer {
+	width: 100%;
+	text-align: center;
+	padding: 20px;
+	background: #0C0C5E;
+}

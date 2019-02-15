@@ -1,0 +1,90 @@
+ /*Responsive layout - when the screen is less than 700px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 940px) {
+  .left,
+  .right {   
+  	flex: 100%;
+  	max-width: 100%;
+  }
+  .thumb{
+  	height: 400px;
+  }
+    .right>.language{
+	display:none;
+	}
+	.thumb > .language{
+		display: block;
+    position: absolute;
+    top: 20px;
+	}
+  .right .info{
+    margin-top: -100px;
+    z-index: 2;
+    position: relative;
+  }
+  .info {
+    padding: 0px 20px 50px;
+  }
+  .thumb .i {margin-top: 150px;}
+
+  /**/
+  .summary,.portfolio,.reference {
+    padding: 50px 30px 30px;
+  }
+  .summary div.edit {
+  display: flex;
+  justify-content: center;
+  margin-right: -40px;
+  }
+  /*skill*/
+  .skill,
+  .exe {
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    padding: 50px 30px 20px;
+  }
+  .skill-pro,.skill-per,.work,.edu {
+    flex:100%;
+    width: 100%;
+  }
+  .edit-item-left-b{
+    justify-content: center;
+  }
+  .ff {
+    width: 100%;
+  }
+  .info-box-item {width: 100%;}
+  .photo-item {width: 50%;}
+  /*----*/
+      .row .quote{
+    display: none;
+    }
+    .column{
+      padding: 0px;
+    }
+    .column .quote{
+        display: block;
+  }
+  /**/
+  .slide {padding: 0px;}
+}
+@media screen and (min-width: 320px )and (max-width: 500px){
+	  .thumb{
+  		height: 225px;
+  	}
+    h1{font-size: 18px;}
+  .thumb .i {margin-top: 0px;}
+  .photo-item {width: 100%;}
+
+}
+@media screen and (min-width: 501px )and (max-width: 767px){
+	  .thumb{
+  		height: 255px;
+  	}
+    h1{font-size: 18px;}
+  .thumb .i {margin-top: 50px;}
+  .photo-item {width: 50%;}
+
+
+}
