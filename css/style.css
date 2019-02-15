@@ -1,0 +1,518 @@
+/*--------1--------*/
+* {
+	padding: 0px;
+	margin: 0px;
+	box-sizing: border-box;
+}
+
+body {
+	max-width: 1366px;
+    font-family: Poppins;
+    font-size: 16px;
+    color: #FFFFFF;
+    margin: auto;
+}
+.language {
+	width: 100%;
+	text-align: center;
+	padding-top: 15px;
+}
+.language a {
+	color: #fff;
+	padding: 15px;
+}
+/*-----header-----*/
+header {
+	display: flex;
+	flex-wrap: wrap;
+	position: relative;
+}
+
+.left {
+	width: 50%;
+}
+
+.thumb {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	background-image: url(../img/1.jpg);
+	width: 100%;
+    height:600px;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    position: relative;
+    z-index: 1;
+}
+.thumb .i{
+	margin-top:250px;
+}
+.thumb>.language {
+	display: none;
+}
+.btn-camera{
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    width: 60px;
+    height: 60px;
+    border-radius: 120px 0px 0px 0px ;
+    background: rgba(58, 57, 57, 0.8);
+    padding: 30px;
+}
+/**/
+.right {
+	width: 50%;
+	background-color:  #242581;
+}
+
+.info {
+	width:100%;
+	display: flex;
+	flex-direction: column;
+	flex-wrap: wrap;
+	justify-content: center;
+    align-items: center;
+    padding:0px 130px;
+}
+.small-photo {
+    width: 150px;
+    height: 150px;
+    margin-top: 16px;
+    border-radius: 100%;
+    background: url(../img/1.jpg), #C4C4C4;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+}
+.small-photo .camera{
+    width: 150px;
+    height: 40px;
+    border-bottom-left-radius: 75px;
+    border-bottom-right-radius: 75px;
+    text-align: center;
+    margin-top: 110px;
+    background: rgba(58, 57, 57, 0.8);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.name-birthday {
+    margin-top: 5px;
+    text-align: center;
+}
+
+div.abc {
+    width: 100%;
+    height: 3px;
+    background: linear-gradient(90.71deg, #F64C71 0.6%, #FB634E 50.01%);
+    margin: 5px 0px;
+}
+.info-name{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin: 10px;
+}
+.A p,.B p{
+    margin-top: 15px;
+}
+.B{
+    margin-left: 40px;
+}
+
+.info-edit {
+    display: flex;
+    border: 1px solid orange;
+    margin-top: 20px;
+    padding: 5px;
+}
+/*----- PORTFOLIO-----*/
+
+/*-----reference-----*/
+
+/*-----footer-----*/
+
+footer {
+  padding: 14px;
+  text-align: center;
+  background: #0C0C5E;
+}
+/*------------------------------------------------------------------------------------------------------------*/
+
+.cv-line-bottom,
+.cv-line-top {
+    position: relative;
+}
+
+.cv-line-bottom:after {
+    position: absolute;
+    bottom: -5px;
+    left: 0;
+    content: '';
+    height: 5px;
+    width: 100%;
+    border-bottom: 2px solid #FB634E;
+}
+
+.cv-line-top:after {
+    position: absolute;
+    top: -6px;
+    right: 0;
+    content: '';
+    height: 5px;
+    width: 55%;
+    border-bottom: 2px solid #FB634E;
+}
+
+/*-----summary------------------------------------------------------------------------------------*/
+.summary {
+	width: 100%; 
+    text-align: justify;
+    background-color: #2026B2;
+    padding: 50px 110px 30px;
+}
+
+.summary > div {
+	margin-bottom: 20px;
+}
+
+.summary div.edit{
+	display: flex;
+	justify-content: flex-end;
+}
+
+.summary div.edit div.btn-edit {
+	width: 130px;
+	padding: 5px;
+	display: flex;
+	border:2px solid orange;
+	margin-right: 40px;
+}
+/**/
+.skill {
+	width: 100%;
+	display: flex;
+	justify-content: space-between;
+    background: #4A0F73;
+    padding: 50px 90px 0px;
+}
+.skill-pro,
+.skill-per {
+ 	width: 50%;
+	margin: 0px 20px 20px;
+}
+
+.skill-pro > div,
+.skill-per > div {
+	margin-bottom: 20px;
+}
+
+/*--------------------------------------------------*/
+.skill-edit{
+	width: 100%;
+	display: flex;
+	flex-flow: wrap;
+}
+
+.edit-item {
+    width: 150px;
+    height: 150px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0px 10px ;
+}
+
+/*.item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100px;
+    height: 100px;
+    border-radius: 100px;
+    border:4px solid orange;
+    
+}*/
+.edita{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5px;
+    border:1px solid orange;
+    margin: 0px;
+}
+/*-----------------------------------*/
+.skill-edit-left{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+
+}
+.edit-item-left{
+	width: 100%;
+    display: flex;
+    flex-direction: column-reverse;
+    padding: 5px 10px ;
+}
+.item-left{
+    width: 100%;
+    height: 7px;
+    margin:5px;
+    background: #ffffff;
+    border-radius: 3px;   
+}
+
+.item-left .pt-x{
+    height: 7px;
+    background: linear-gradient(90.71deg, #F64C71 0.6%, #FB634E 50.01%);
+    border-radius: 3px;
+}
+
+.item-object{
+    margin:10px;
+}
+
+.edit-item-left-b{
+    display: flex;
+     justify-content: flex-end;
+     margin: 5px 20px;
+}
+
+.edit-b{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border:1px solid orange;
+    padding: 5px;
+
+}
+/*------------------------------------------------------------------*/
+
+.donut {
+    height: 100px;
+    width: 100px;
+
+}
+
+.donut-ring {
+    stroke: #d2d3d4;
+}
+.donut-chart {
+    fill: none;
+    stroke-width: 5;
+    cx: 50;
+    cy: 50;
+    r: 47.5;
+}
+.donut-segment {
+    stroke: #F64D70;
+
+}
+.donut text {
+    text-anchor: middle;
+    alignment-baseline: middle;
+    fill: white;
+    font-size: 14px;
+}
+/*------------------------------------------------------*/
+.exe {
+	width: 100%;
+	display: flex;
+	justify-content: space-between;
+    background: #2026B2;
+    padding: 50px 90px 0px;
+}
+.work,
+.edu {
+	width: 50%;
+	margin: 0px 20px 20px;
+}
+
+.work > div,
+.edu > div{
+	margin-bottom: 20px;
+}
+/**/
+.info-item {
+	width: 100%;
+    margin:0px 10px;
+}
+
+.info-box-item {
+width: 100%;
+border: 0.5px solid #cac1c136;
+box-sizing: border-box;
+margin-top: 10px;
+margin-bottom: 5px;
+text-align: justify;
+padding: 0px 10px;
+}
+
+.arrow-up {
+    width: 0; 
+    height: 0; 
+    border-top: 8px solid transparent;
+    border-bottom: 8px solid transparent;    
+    border-left: 12px solid #ffffff;
+    margin-top: 53px;
+}
+
+.border-bt {
+    height: 1px;
+    width: 50px;
+    border-bottom: 2px dotted white;
+    margin-top: 60px;
+}
+
+.info-box {
+    display: flex;
+}
+
+.ii {
+  margin: -2px;
+}
+
+.info-edit-b {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border:1px solid orange;
+    padding: 5px;
+}
+/*-----------*/
+.portfolio {
+	width: 100%; 
+    background: #563D67;
+    padding: 50px 110px 30px;
+}
+
+.portfolio > div {
+	margin-bottom: 20px;
+}
+.nav {
+	width: 100%;
+	padding-left: 20px;
+}
+.nav a{
+	color: #fff;
+	margin: 10px;
+	text-decoration: none;
+}
+
+.list-photo {
+    margin:20px 0px 0px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.photo-item {
+	width: 25%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+.item-a,
+.item-b {
+	width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    height: 220px;
+}
+.item-a {height: 220px;}
+.item-b {height: 440px;
+}
+/*------------------------*/
+.reference {
+	width: 100%; 
+    background: #2F2FA1;
+    padding: 50px 110px 10px;
+}
+
+.reference > div{
+	margin-bottom: 30px;
+}
+
+.slider {
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	align-content: center;
+	padding: 0px 50px;
+}
+.refer-edit{
+	width: 100%;
+	display: flex;
+	justify-content: center;
+}
+.refer-edit .info-edit-b {
+	display: flex;
+	border:1px solid orange;
+}
+/**/
+.inner-content {
+    text-align: justify;
+    letter-spacing: 0.015em;
+    padding: 30px 35px;
+}
+.position-relative {
+    position: relative!important;
+}
+.text-start {
+    top: 0px;
+    left: 0px;
+}
+.text-start, .text-end {
+    font-family: 'PortLligatSans';
+    font-size: 80px;
+    display: initial;
+}
+.position-absolute {
+    position: absolute!important;
+}
+.text-end {
+    margin-top:-10px;
+}
+.cv-gallerry-content {
+    top: 0px;
+    left: 0px;
+}
+/*------------------------------------*/
+.slide {
+    
+}
+.row{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.row >div{margin: 10px;}
+.quote{
+    width: 900px;
+    text-align: justify;
+}
+.column{
+    width: 100%;
+    padding: 0px 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.column .quote{
+        display: none;
+
+}
+.font-size-20 {
+	font-size: 20px;
+}
