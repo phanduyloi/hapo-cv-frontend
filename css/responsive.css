@@ -1,5 +1,199 @@
-@media only screen and (max-width: 850px){
-    .phan1 {
-        flex-direction: column;
-    }
+ /*Responsive layout - when the screen is less than 768px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 900px){
+  .i .name {
+   font-size: 18px;
+  }
+  .i .job { 
+    font-size:14px;
+  }
+
+  header,
+  .skill,
+  .exe {
+    flex-direction: column;
+  }
+
+  .h-left,
+  .h-right,
+  .skill-pro,
+  .skill-per,
+  .work,
+  .edu {
+    flex:100%;
+    width: 100%;
+  }
+  .thumb .i {
+    margin: 0px;
+}
+
+  .h-right > .language {
+    display: none;
+  }
+
+  .thumb {
+    height: 175px;
+  }
+
+  .thumb > .language {
+    display: block;
+    position: absolute;
+    top: 7px;
+  }
+
+  .thumb .btn.camera {
+    width: 35px;
+    height: 35px;
+    padding: 12px 14px 13px;
+  }
+
+  .h-right .info {
+    margin-top: -75px;
+    z-index: 2;
+    position: relative;
+}
+  
+  .info1 .small-photo {
+    width: 100px;
+    height: 100px;
+  }
+
+  .small-photo .btn.camera {
+    width: 100px;
+    height: 30px;
+    margin-top: 70px;
+  }
+
+  .info .info2 {
+    padding: 0px 15px 35px;
+    margin:10px 0px 0px;
+  }
+
+  .summary {
+    padding: 37px 15px 15px;
+  }
+
+  .summary div.edit {
+    display: flex;
+    justify-content: center;
+  }
+
+  .summary-edit {
+      margin-right: 0px;
+  }
+
+  .skill,
+  .exe,
+  .portfolio,
+  .reference {
+    padding: 37px 15px 15px;
+  }
+
+  .skill-pro,
+  .skill-per,
+  .work,
+  .edu {
+    padding: 0px;
+    margin: 0px;
+  }
+
+  .per-skill-item,
+  .work-info-item,
+   .info-item {
+    width: 100%;
+    padding: 0px;
+  }
+
+  .btn-donut-chart {
+    grid-column: 2;
+  }
+
+  .flex-row-end {
+    justify-content: center;
+    margin: 0px;
+    padding: 0px;
+  }
+
+}
+
+@media screen and (min-width: 320px)and (max-width: 768px) {
+ 
+  .list-object {
+      grid-template-columns: 50% 50%;
+  }
+  .rec-btn {
+    grid-column: 2;
+  }
+
+  .slick-prev {
+    top: 90px;
+    left: 22.6%;
+  }
+
+  .slick-next {
+    top: 90px;
+    right: 22.6%;
+}
+
+  .reference {
+    padding: 37px 15px 15px;
+  }
+
+  .sllider {
+    padding: 0px;
+    margin: 0px;
+  }
+
+  .row.myslide {
+    flex-direction: column;
+    flex-wrap: wrap;
+    margin: 15px 0px;
+    margin-bottom: 25px;
+    justify-content: center;
+  }
+
+  .quote {
+    width: 100%;
+  }
+
+  .column-x {
+    display: flex;
+    flex-direction: column;
+  }
+  .column .quote {
+    width: 100%;
+  }
+}
+
+@media screen and (min-width: 320px)and (max-width: 375px) {
+ 
+ .pro-skill-item {
+      grid-template-columns: 50% 50%;
+  }
+
+  .btn-donut-chart {
+    margin: 20px -80px;
+  }
+
+  .skill-donut-chart.btn-donut-chart {
+     width: 100%; 
+     display: flex; 
+     justify-content: center; 
+  }
+
+  .slick-prev {
+    left: 0%
+  }
+
+  .slick-next {
+    right: 0%;
+  }
+  
+  .text-start,
+  .text-end {
+    font-size: 60px;
+  }
+
+  .title h1 {
+    font-size: 16px;
+  }
 }
