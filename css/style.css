@@ -176,7 +176,7 @@ div.abc {
 }
 
 .B {
-    margin-left: 40px;
+    margin-left: 35px;
 }
 
 .info-edit {
@@ -496,6 +496,10 @@ div.abc {
 
 .color7 {
     background-color: #F9BC2D; 
+}
+
+.color8 {
+    background-color: #F9BC2D;
 }
 
 .item-a {
