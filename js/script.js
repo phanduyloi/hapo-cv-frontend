@@ -15,8 +15,8 @@ function addSkillCircleChart() {
 	let charts = document.getElementsByClassName("pro-skill-item")[0];
 	charts.innerHTML += '<div class="skill-donut-chart">\
 					<svg class="donut">\
-						<circle class="donut-ring donut-chart"></circle>\
-						<circle class="donut-segment donut-chart"\ stroke-dashoffset="104.45795573184999"></circle>\
+						<circle class="donut-ring donut-chart" r="47.5"></circle>\
+						<circle class="donut-segment donut-chart"\ stroke-dashoffset="104.45795573184999" r="47.5"></circle>\
 						<text x="50%" y="50%">65%</text>\
 					</svg>\
 					<p class="skill-name">react native</p>\
