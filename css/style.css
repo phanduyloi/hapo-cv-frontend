@@ -1,6 +1,6 @@
 * {
-        padding: 0px;
-        margin: 0px;
+        padding: 0;
+        margin: 0;
         box-sizing: border-box;
 }
 body {
@@ -27,18 +27,18 @@ body {
 
 .language {
     height: 21px;
-    margin: 0px auto;
+    margin: 0 auto;
 }
 
 .language a {
     color: #fff;
-    padding:0px 8px;
+    padding: 0 8px;
     text-decoration: none;
 }
 
 .btn {
     cursor: pointer;
-    padding:7px 10px;
+    padding: 7px 10px;
 }
 /*--------------------*/
 header {
@@ -72,21 +72,21 @@ header {
     display: none;
 }
 
-.thumb .i{
+.name-job {
     margin-top: 396px;
 }
 
-.i .name {
+.name {
     font-weight: bold;
     font-size: 40px;
     letter-spacing: 0.05em;
 }
 
-.i .job {
+.job {
     font-size: 20px;
 }
 
-.thumb .btn.camera{
+.thumb .btn-camera{
     position: absolute;
     right: 0;
     bottom: 0;
