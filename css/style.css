@@ -1,6 +1,6 @@
 * {
-        padding: 0;
-        margin: 0;
+        padding: 0px;
+        margin: 0px;
         box-sizing: border-box;
 }
 body {
@@ -27,7 +27,7 @@ body {
 
 .language {
     height: 21px;
-    margin: 0 auto;
+    margin: 0px auto;
 }
 
 .language a {
@@ -38,7 +38,7 @@ body {
 
 .btn {
     cursor: pointer;
-    padding: 7px 10px;
+    padding:7px 10px;
 }
 /*--------------------*/
 header {
@@ -68,21 +68,21 @@ header {
     z-index: 1;
 }
 
-.thumb >.language {
+.thumb .language {
     display: none;
 }
 
-.name-job {
+.thumb .name-job {
     margin-top: 396px;
 }
 
-.name {
+.name-job .name {
     font-weight: bold;
     font-size: 40px;
     letter-spacing: 0.05em;
 }
 
-.job {
+.i .job {
     font-size: 20px;
 }
 
@@ -102,7 +102,7 @@ header {
     flex-direction: column;
 }
 
-.h-right >.language {
+.h-right .language {
     margin-top: 21px;
 }
 
@@ -120,8 +120,8 @@ header {
 }
 
 .info .info2 {
-    padding: 0px 136px 0px 114px;
-    margin:11px 0px 0px;
+    padding: 0 136px 0 114px;
+    margin:11px 0 0;
 }
 .info1 .small-photo {
     width: 150px;
@@ -139,7 +139,7 @@ header {
     overflow: hidden;
 }
 /*--------------------------------------------header------------------------------------*/ 
-.small-photo .btn.camera {
+.small-photo .btn-camera {
     width: 150px;
     height: 40px;
     border-bottom-left-radius: 75px;
@@ -241,13 +241,13 @@ div.abc {
     display: flex;
     justify-content: space-between;
     background: #4A0F73;
-    padding: 50px 115px 0px;
+    padding: 50px 115px 0;
     text-align: justify;
 }
 .skill-pro,
 .skill-per {
     width: 50%;
-    padding: 0px 20px 20px;
+    padding: 0 20px 20px;
 }
 
 .skill-pro > div,
@@ -259,7 +259,7 @@ div.abc {
     width: 100%;
     display: grid;
     flex-flow: wrap;
-    grid-template-columns: 33.333333% 33.333333% 33.333334%;
+    grid-template-columns: auto auto auto;
     grid-template-rows: auto;
 }
 
@@ -328,7 +328,7 @@ div.abc {
     width: 100%;
     display: flex;
     flex-direction: column-reverse;
-    padding: 5px 0px ;
+    padding: 5px 0 ;
 }
 
 .item-left {
@@ -348,12 +348,12 @@ div.abc {
 
 .pt-x >p {
     position: absolute;
-    top: -16px;
+    top: -35px;
     right: -16px;
 }
 
 .item-object {
-    margin:10px;
+    margin: 10px;
 }
 
 .flex-row-end {
@@ -374,12 +374,12 @@ div.abc {
     display: flex;
     justify-content: space-between;
     background: #2026B2;
-    padding: 50px 115px 0px;
+    padding: 50px 115px 0;
     text-align: justify;
 }
 .work,
 .edu {
-    margin: 0px 20px;
+    margin: 0 20px;
 }
 
 .work > div,
@@ -390,7 +390,7 @@ div.abc {
 .work-info-item,
 .info-item {
     width: 100%;
-    padding: 0px 33px;
+    padding: 0 33px;
 }
 
 .info-box-item {
@@ -429,12 +429,12 @@ div.abc {
     margin-left: -7px;
 }
 
-.edit-item-left-b {
+.edit-exe {
     margin-right: 33px;
     margin-bottom: 10px;
 }
 
-.info-edit-b {
+.info-edit-work-edu {
     display: flex;
     border:1px solid orange;
     justify-content: center;
@@ -449,11 +449,12 @@ div.abc {
 .portfolio > div {
     margin-bottom: 20px;
 }
+
 .nav {
     width: 100%;
     padding-left: 20px;
 }
-.nav a{
+.nav a {
     color: #fff;
     margin: 10px;
     text-decoration: none;
@@ -498,22 +499,22 @@ div.abc {
 }
 
 .item-a {
-
-    padding: 10px 0px;
+    padding: 10px 0;
 }
+
 .item-a >img {
     width: 160px;
 }
 
 .item-b {
-    padding: 10px 0px;
+    padding: 10px 0;
     grid-row: span 2;
 }
 .item-b >img {
     width: 160px;
 }
 .rec-btn {
-    padding:66px 0px;
+    padding:66px 0;
     grid-column: 4;
 }
 /*--------*/
@@ -547,7 +548,7 @@ div.abc {
 .inner-content {
     text-align: justify;
     letter-spacing: 0.015em;
-    padding: 30px 0px 0px 35px;
+    padding: 30px 0 0 35px;
 }
 .position-relative {
     position: relative!important;
@@ -565,7 +566,7 @@ div.abc {
     position: absolute!important;
 }
 .text-end {
-    margin-top:-10px;
+    margin-top: -10px;
 }
 .cv-gallerry-content {
     top: 0px;
@@ -662,7 +663,7 @@ div.abc {
     font-size: 14px;
 }
 
-.row.myslide {
+.myslide {
     padding: 0 0 30px;
 }
 
@@ -674,4 +675,8 @@ footer {
   padding: 14px;
   text-align: center;
   background: #0C0C5E;
+}
+
+.btn-add-pro-skill-mb {
+    display: none;
 }
