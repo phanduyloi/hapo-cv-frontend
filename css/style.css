@@ -415,7 +415,7 @@ div.abc {
 .border-bt {
     height: 1px;
     width: 50px;
-    border-bottom: 2px dotted white;
+    border-bottom: 1px dotted white;
     margin-top: 60px;
 }
 
