@@ -15,10 +15,11 @@
  }
 }
 @media screen and (max-width: 900px){
-  .name {
+  .name-job .name {
    font-size: 18px;
   }
-  .job { 
+ 
+  .name-job .job { 
     font-size:14px;
   }
 
