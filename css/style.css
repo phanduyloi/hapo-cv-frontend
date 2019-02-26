@@ -687,3 +687,11 @@ footer {
 .btn-add-pro-skill-mb {
     display: none;
 }
+
+.edu .title .cv-line-top:after,
+.edu .title .cv-line-bottom:after,
+.work .title .cv-line-top:after,
+.work .title .cv-line-bottom:after
+{
+    border-bottom: #FFF;
+}
