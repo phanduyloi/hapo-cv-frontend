@@ -470,6 +470,9 @@ div.abc {
     border:1px solid orange;
 }
 
+.color0 {
+    background-color: #DD3576;       
+}
 .color1 {
     background-color: #FD7038;
 }
@@ -499,7 +502,7 @@ div.abc {
 }
 
 .color8 {
-    background-color: #F9BC2D;
+    background-color: #BCC123;
 }
 
 .item-a {
