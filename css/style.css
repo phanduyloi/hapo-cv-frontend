@@ -373,7 +373,7 @@ div.abc {
 .exe {
     display: flex;
     justify-content: space-between;
-    background: #2026B2;
+    background-color: #F64C71;
     padding: 50px 115px 0;
     text-align: justify;
 }
